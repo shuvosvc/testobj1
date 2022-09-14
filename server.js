@@ -22,7 +22,6 @@ const app = express();
 // set cors origin
 app.use(
   cors({
-    // origin: process.env.DASHBOARD_URL,
     origin: "*",
   })
 );
